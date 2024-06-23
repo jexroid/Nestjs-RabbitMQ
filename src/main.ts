@@ -15,6 +15,6 @@ async function bootstrap() {
 
   await app.listen(process.env.PORT);
   console.log(`listening at http://localhost:${process.env.PORT}`);
-  console.log(`Unfortunately i couldn't make unit test for codes because of lack of time`);
 }
+
 bootstrap();
